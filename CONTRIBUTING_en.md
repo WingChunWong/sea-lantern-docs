@@ -42,6 +42,7 @@ Please update all language versions when making changes. If you're not comfortab
 - Each page needs frontmatter (at least a title)
 - Place static assets (images, etc.) in the `public/` directory
 - Keep file structures consistent across all language directories
+- Root-level files like `README.md` and `CONTRIBUTING.md` are excluded from the build via `srcExclude`. **Do not link to these files from documentation pages** (`zh/`, `en/`, `zh-tw/`), or VitePress will report dead links
 
 ## Submitting a PR
 

@@ -42,6 +42,7 @@
 - 每个页面需要 frontmatter（至少包含标题）
 - 图片等静态资源放在 `public/` 目录下
 - 保持各语言目录的文件结构一致
+- 根目录的 `README.md`、`CONTRIBUTING.md` 等仓库级文件已通过 `srcExclude` 排除构建，**不要在文档页面（`zh/`、`en/`、`zh-tw/`）中链接这些文件**，否则 VitePress 构建时会报 dead link
 
 ## 提交 PR
 

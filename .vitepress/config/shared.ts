@@ -4,6 +4,8 @@ import { MAIN_SITE_URL } from '../urls'
 export const shared = defineConfig({
   title: 'Sea Lantern',
 
+  srcExclude: ['README.md', 'README_en.md', 'CONTRIBUTING.md', 'CONTRIBUTING_en.md'],
+
   base: '/',
   lastUpdated: true,
   cleanUrls: true,
