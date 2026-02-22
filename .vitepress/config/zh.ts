@@ -8,6 +8,11 @@ export const zh = defineConfig({
     nav: nav(),
     sidebar: sidebar(),
 
+    editLink: {
+      pattern: 'https://github.com/SeaLantern-Studio/sea-lantern-docs/edit/main/:path',
+      text: '在 GitHub 上编辑此页',
+    },
+
     footer: {
       message: '基于 GPL-3.0 许可发布',
       copyright: '© 2024-present SeaLantern Studio',

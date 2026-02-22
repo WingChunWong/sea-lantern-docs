@@ -8,6 +8,11 @@ export const en = defineConfig({
     nav: nav(),
     sidebar: sidebar(),
 
+    editLink: {
+      pattern: 'https://github.com/SeaLantern-Studio/sea-lantern-docs/edit/main/:path',
+      text: 'Edit this page on GitHub',
+    },
+
     footer: {
       message: 'Released under the GPL-3.0 License',
       copyright: '© 2024-present SeaLantern Studio',
