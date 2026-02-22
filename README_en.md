@@ -1,16 +1,24 @@
+<div align="center">
+
+<img src="public/logo.ico" alt="logo" width="120" height="120">
+
 # Sea Lantern Docs
 
-The official documentation site for [Sea Lantern](https://github.com/SeaLantern-Studio/SeaLantern), built with [VitePress](https://vitepress.dev).
+The official documentation site for [Sea Lantern](https://github.com/SeaLantern-Studio/SeaLantern), built with [VitePress](https://vitepress.dev)
 
-[中文](./README.md)
+[![deploy](https://img.shields.io/github/actions/workflow/status/SeaLantern-Studio/sea-lantern-docs/deploy.yml?style=flat&logo=github&label=Deploy)](https://github.com/SeaLantern-Studio/sea-lantern-docs/actions) [![docs](https://img.shields.io/website?url=https%3A%2F%2Fdocs.ideaflash.cn&style=flat&label=Docs)](https://docs.ideaflash.cn) [![license](https://img.shields.io/github/license/SeaLantern-Studio/sea-lantern-docs?style=flat&label=License)](./LICENSE)
 
-**Live site**: [docs.ideaflash.cn](https://docs.ideaflash.cn)
+<kbd>[简体中文](README.md)</kbd> <kbd>English</kbd>
 
-## Supported Languages
+---
 
-- Simplified Chinese (`/zh/`)
-- English (`/en/`)
-- Traditional Chinese (`/zh-tw/`)
+</div>
+
+## Live Site
+
+[![docs](https://img.shields.io/website?url=https%3A%2F%2Fdocs.ideaflash.cn&style=for-the-badge&label=docs.ideaflash.cn)](https://docs.ideaflash.cn)
+
+Available in three languages: 简体中文 · English · 繁體中文
 
 ## Local Development
 
@@ -35,9 +43,9 @@ pnpm preview             # Preview build output
 ├── .vitepress/           # VitePress config & theme
 │   ├── config/           # Multi-language config
 │   └── theme/            # Custom theme
-├── en/                   # English docs
-├── zh/                   # Simplified Chinese docs
-├── zh-tw/                # Traditional Chinese docs
+├── en/                   # English
+├── zh/                   # 简体中文
+├── zh-tw/                # 繁體中文
 ├── public/               # Static assets
 └── index.md              # Home (redirects to /zh/intro)
 ```
@@ -48,7 +56,7 @@ Pushing to `main` triggers GitHub Actions to build and deploy automatically.
 
 ## Contributing
 
-Contributions are welcome! Please read [CONTRIBUTING_en.md](./CONTRIBUTING_en.md).
+Contributions are welcome! Please read the [Contributing Guide](./CONTRIBUTING_en.md).
 
 ## License
 
