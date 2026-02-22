@@ -1,30 +1,34 @@
+<script setup>
+import { VERSION, RELEASE_BASE } from '../.vitepress/version'
+</script>
+
 # Download
 
 ## Latest Version
 
-Current latest version: **v0.6.5**
+Current latest version: **v{{ VERSION }}**
 
 ## Windows
 
 | Format | Description |
 |--------|-------------|
-| [EXE Installer](https://github.com/SeaLantern-Studio/SeaLantern/releases/download/sea-lantern-v0.6.5/Sea.Lantern_0.6.5_x64-setup.exe) | Recommended, double-click to install |
-| [MSI Installer](https://github.com/SeaLantern-Studio/SeaLantern/releases/download/sea-lantern-v0.6.5/Sea.Lantern_0.6.5_x64_zh-CN.msi) | Windows Installer format |
+| [EXE Installer]({{ RELEASE_BASE }}/Sea.Lantern_{{ VERSION }}_x64-setup.exe) | Recommended, double-click to install |
+| [MSI Installer]({{ RELEASE_BASE }}/Sea.Lantern_{{ VERSION }}_x64_zh-CN.msi) | Windows Installer format |
 
 ## macOS
 
 | Format | Description |
 |--------|-------------|
-| [DMG (Apple Silicon)](https://github.com/SeaLantern-Studio/SeaLantern/releases/download/sea-lantern-v0.6.5/Sea.Lantern_0.6.5_aarch64.dmg) | M1 / M2 / M3 / M4 |
-| [DMG (Intel)](https://github.com/SeaLantern-Studio/SeaLantern/releases/download/sea-lantern-v0.6.5/Sea.Lantern_0.6.5_x64.dmg) | x64 architecture |
+| [DMG (Apple Silicon)]({{ RELEASE_BASE }}/Sea.Lantern_{{ VERSION }}_aarch64.dmg) | M1 / M2 / M3 / M4 |
+| [DMG (Intel)]({{ RELEASE_BASE }}/Sea.Lantern_{{ VERSION }}_x64.dmg) | x64 architecture |
 
 ## Linux
 
 | Format | Description |
 |--------|-------------|
-| [DEB](https://github.com/SeaLantern-Studio/SeaLantern/releases/download/sea-lantern-v0.6.5/Sea.Lantern_0.6.5_amd64.deb) | Debian / Ubuntu |
-| [RPM](https://github.com/SeaLantern-Studio/SeaLantern/releases/download/sea-lantern-v0.6.5/Sea.Lantern-0.6.5-1.x86_64.rpm) | Fedora / RHEL |
-| [AppImage](https://github.com/SeaLantern-Studio/SeaLantern/releases/download/sea-lantern-v0.6.5/Sea.Lantern_0.6.5_amd64.AppImage) | Universal format |
+| [DEB]({{ RELEASE_BASE }}/Sea.Lantern_{{ VERSION }}_amd64.deb) | Debian / Ubuntu |
+| [RPM]({{ RELEASE_BASE }}/Sea.Lantern-{{ VERSION }}-1.x86_64.rpm) | Fedora / RHEL |
+| [AppImage]({{ RELEASE_BASE }}/Sea.Lantern_{{ VERSION }}_amd64.AppImage) | Universal format |
 
 Arch Linux users can install via AUR.
 
