@@ -1,14 +1,12 @@
 import DefaultTheme from 'vitepress/theme'
 import type { Theme } from 'vitepress'
-import { resolveMainUrl } from '../urls'
-
-const mainSiteUrl = resolveMainUrl('/', import.meta.env.DEV)
+import { MAIN_SITE_URL } from '../urls'
 
 /** 将 .VPNavBarTitle 内的链接 href 强制指向主站 */
 function patchTitleLink() {
   const link = document.querySelector('.VPNavBarTitle a') as HTMLAnchorElement | null
-  if (link && link.href !== mainSiteUrl) {
-    link.href = mainSiteUrl
+  if (link && link.href !== MAIN_SITE_URL) {
+    link.href = MAIN_SITE_URL
   }
 }
 

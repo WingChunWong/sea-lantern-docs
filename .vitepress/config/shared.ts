@@ -1,8 +1,5 @@
 import { defineConfig } from 'vitepress'
-import { resolveMainUrl } from '../urls'
-
-/** 主站地址：开发环境直接跳 Nuxt 端口，生产环境用相对路径 */
-export const mainSiteUrl = resolveMainUrl('/', process.env.NODE_ENV === 'development')
+import { MAIN_SITE_URL } from '../urls'
 
 export const shared = defineConfig({
   title: 'Sea Lantern',
@@ -16,7 +13,7 @@ export const shared = defineConfig({
   ],
 
   themeConfig: {
-    logo: '/logo.ico',
+    logo: { src: '/logo.ico', link: MAIN_SITE_URL },
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/SeaLantern-Studio/SeaLantern' },
